@@ -384,10 +384,10 @@ a.slider-image{height:100%}
 .AT_slidecontainer { max-width: 1000px;position: relative; display: flex; justify-content: center; align-items: center;padding: 0 12px; margin: 0 auto; } #slide-left{left: 0;z-index:-2;} #slide-right{z-index:-2;right: 0;} .arrow { width: 2rem; fill: #000!important; margin: 0 1rem;position: absolute; } #slide-right{-webkit-transform: scaleX(-1); transform: scaleX(-1); } section#A__slider { width: 100%; /* height: 300px; */ margin: 0 auto; display: flex; justify-content: flex-start; align-items: center; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; /* border: 1px solid black; */ } section#A__slider::-webkit-scrollbar { display:none; } section#A__slider .Slide_thumbnail { flex: 0 0 auto; object-fit: cover;position: relative; cursor: pointer; width: 530px; height: 328px; border: 1px solid #555; overflow: hidden; transform: scale(.95); transition: all .3s; } #A__slider .Slide_thumbnail img{width: 100%; height: 100%; object-fit: cover;} section#A__slider .thumbnail:hover { transform: scale(1); } .slider-details { z-index: 9; position: absolute; bottom: 0; left: 0; width: 100%; height: auto; opacity: 1; transition: all .3s; background: linear-gradient(0deg, rgb(2, 0, 36) 10%, rgba(0, 0, 0, 0) 100%); } @media (max-width: 480px){section#A__slider .Slide_thumbnail{width: 230px!important; height: 144px!important;}} .slider-details h2 { font-size: 1.2rem; font-weight: 500; } .slider-details a { color: #fff!important; display: table-cell; width: 100%; padding: 15px 10px; vertical-align: middle; font-weight: bold; }
 
 /*ads*/
-.donat { width: 300px; height: auto; } 
-@media(min-width: 500px) { .donat { width: 468px; height: auto; } } 
-@media(min-width: 767px) { .donat { width: 600px; height: auto; } } 
-@media(min-width: 1023px) { .donat { width: 728px; height: auto; } } 
+.donat { width:100%; height: auto; } 
+@media(min-width: 500px) { .donat { width:100%; height: auto; } } 
+@media(min-width: 767px) { .donat { width: 100%; height: auto; } } 
+@media(min-width: 1023px) { .donat { width:100%; height: auto; } } 
 /*LabelThumb*/
 .Epthumb {position: absolute;top:0px;right:0px;width:auto; height:auto; background:#000000;font-weight:bold;border-bottom:2px solid #00ff00;}
 .Epthumb svg {padding-right:3px;padding-top:2px;}
